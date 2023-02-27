@@ -6,9 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name!: String;
+  name!: string;
   onNameChange(value: string) {
     this.name = value;
-    console.log(this.name);
   }
 }
